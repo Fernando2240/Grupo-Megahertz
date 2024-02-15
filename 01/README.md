@@ -61,7 +61,6 @@ Para trabajar con Nand2Tetris se debe tener en cuenta la sintaxis para utilizar 
 
 2. ¿Qué otras herramientas similares a Nand2Tetris existen? (De mínimo dos ejemplos)
 
-Otras herrmientas similares podrian ser:
-
--Logisim 
--Yosys
+Otras herramientas similares podrian ser:
+- Logisim
+- Yosys
