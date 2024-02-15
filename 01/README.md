@@ -42,16 +42,15 @@ La compuerta lógica MUX (Multiplexor) es un dispositivo fundamental en la lógi
 
 El demultiplexor (DMux) es otro componente esencial en la lógica digital que realiza la función inversa del multiplexor (Mux). Un demultiplexor toma una única entrada y la enruta a una de las múltiples salidas según el estado de un selector de control.
 
+### **Compuerta And16**
+
 ### **Compuerta NOT16:**
 
 ![Not16](https://github.com/Fernando2240/Grupo-Megahertz/assets/92164946/78af8d4f-cd3f-4582-8907-133ebbbc08f7)
 
 La compuerta lógica Not16 es una compuerta Not que opera en un bus de 16 bits. Esto significa que tiene 16 entradas y 16 salidas, y realiza la operación lógica Not (inversión) en cada bit de entrada individualmente. Cada bit de la salida es la negación del bit correspondiente en la entrada de 16 bits.
 
-
 ### **Compuerta OR16:**
-
-### **Compuerta And16 **
 
 ### **Compuerta Mux16**
 
