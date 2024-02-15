@@ -26,17 +26,25 @@ En la compuerta OR sencillamente negamos las entradas de una NAND, de esta forma
 
 ### **Compuerta XOR:**
 
+![Xor](https://github.com/Fernando2240/Grupo-Megahertz/assets/92164946/24804705-2da4-4bb4-bf67-3c26cca0383e)
+
 La compuerta lógica XOR, también conocida como exclusiva OR, es un componente fundamental en la lógica digital y se construye mediante la combinación de compuertas lógicas Not, And, y Or. La función XOR produce un resultado verdadero (1/High) solo cuando una y solo una de las entradas es verdadera.
 
 ### **Compuerta MUX:**
+
+![Mux](https://github.com/Fernando2240/Grupo-Megahertz/assets/92164946/ae2a8f41-4da2-4cde-8579-4ed71bdc61c4)
 
 La compuerta lógica MUX (Multiplexor) es un dispositivo fundamental en la lógica digital que se utiliza para seleccionar una de las múltiples entradas y enrutarla hacia la salida. La operación de un MUX se controla mediante las entradas de selección, que determinan cuál de las entradas de datos se transmite a la salida.
 
 ### **Compuerta DMUX:**
 
+![DMux](https://github.com/Fernando2240/Grupo-Megahertz/assets/92164946/4329fc92-2798-44cd-bebc-6c8f5b83a046)
+
 El demultiplexor (DMux) es otro componente esencial en la lógica digital que realiza la función inversa del multiplexor (Mux). Un demultiplexor toma una única entrada y la enruta a una de las múltiples salidas según el estado de un selector de control.
 
 ### **Compuerta NOT16:**
+
+![Not16](https://github.com/Fernando2240/Grupo-Megahertz/assets/92164946/78af8d4f-cd3f-4582-8907-133ebbbc08f7)
 
 La compuerta lógica Not16 es una compuerta Not que opera en un bus de 16 bits. Esto significa que tiene 16 entradas y 16 salidas, y realiza la operación lógica Not (inversión) en cada bit de entrada individualmente. Cada bit de la salida es la negación del bit correspondiente en la entrada de 16 bits.
 
