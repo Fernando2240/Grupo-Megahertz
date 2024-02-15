@@ -60,7 +60,7 @@ La compuerta OR de 16 bits ha sido conformada por compuertas AND que comparan el
 
 ### **Compuerta Or8Way**
 
-La compuerta OR de 8 caminos, 
+La compuerta OR de 8 caminos en los que las entradas son recursivas de tal manera que la salida de la primer compuerta es la entrada de la segunda, entonces la salida de la compuerta n será la entrada de la compuerta n+1.
 
 ### **Preguntas adicionales:**
 
