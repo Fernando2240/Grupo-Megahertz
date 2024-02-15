@@ -7,8 +7,13 @@ las demas compuertas logicas, pasando por las mas basicas a las mas complejas.
 
 ### **Compuerta NOT:**
 
+![NOT](https://github.com/Fernando2240/Grupo-Megahertz/assets/73613484/71932439-030c-4adc-bf36-ae182a35f414)
+
+
 Esta es la primera compuerta que se realizó a partir de la compuerta primitiva NAND. Basicamente,las dos entradas de la NAND van a ser la misma (in), por lo que si el valor de la entrada es 0, su salida será 1 y de modo 
 contrario si su entrada es 1, su salida será 0. Este comportamiento es el mismo de la compuerta NOT.
+
+
 
 ### **Compuerta AND:**
 
