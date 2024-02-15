@@ -20,6 +20,8 @@ Para esta compuerta utilizamos la NAND y la NOT ya que esta ultima ya la constru
 
 ### **Compuerta OR:**
 
+![OR](https://github.com/Fernando2240/Grupo-Megahertz/assets/73613484/1eae5a8c-fafd-4954-bd16-f690dcb1c070)
+
 En la compuerta OR sencillamente negamos las entradas de una NAND, de esta forma conseguimos el mismo funcionamiento de la compuerta OR. 
 
 ### **Compuerta OR16:**
