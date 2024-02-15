@@ -1,1 +1,1 @@
-# Explicación de los puntos
+# Desarrollo del taller #1
