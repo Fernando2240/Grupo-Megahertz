@@ -54,9 +54,13 @@ La compuerta lógica Not16 es una compuerta Not que opera en un bus de 16 bits. 
 
 ### **Compuerta OR16:**
 
+![Or16](https://github.com/Fernando2240/Grupo-Megahertz/assets/92164946/62af5991-5cf6-48af-8e13-3e8d553cbbc2)
+
 La compuerta OR de 16 bits ha sido conformada por compuertas AND que comparan el bit n de la cadena a con el bit n de la cadena b y con el paso de las iteraciones, se comparan los bits n+1 de cada una de las cadenas respectivamente.
 
 ### **Compuerta Mux16**
+
+![Mux16](https://github.com/Fernando2240/Grupo-Megahertz/assets/92164946/7763a12e-50ef-4832-b24f-e75bbce40c38)
 
 Se selecciona una de las múltiples entradas y se enruta hacia la salida. La operación de un MUX se controla mediante las entradas de selección, que determinan cuál de las entradas de datos se transmite a la salida. De esta manera las entradas n de la cadena a se comparan con las entradas n de la cadena b, así conseguimos 16 salidas correspondientes a 16 entradas.
 
