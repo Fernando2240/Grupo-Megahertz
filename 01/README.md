@@ -54,11 +54,13 @@ La compuerta lógica Not16 es una compuerta Not que opera en un bus de 16 bits. 
 
 ### **Compuerta OR16:**
 
+La compuerta OR de 16 bits ha sido conformada por compuertas AND que comparan el bit n de la cadena a con el bit n de la cadena b y con el paso de las iteraciones, se comparan los bits n+1 de cada una de las cadenas respectivamente.
+
 ### **Compuerta Mux16**
 
 ### **Compuerta Or8Way**
 
-
+La compuerta OR de 8 caminos, 
 
 ### **Preguntas adicionales:**
 
