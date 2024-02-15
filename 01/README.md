@@ -44,7 +44,7 @@ El demultiplexor (DMux) es otro componente esencial en la lógica digital que re
 
 ### **Compuerta And16**
 
-La compuerta AND de 16 bits ha sido conformada por compuertas AND que comparan el bit n de la cadena a con el bit n de la cadena b
+La compuerta AND de 16 bits ha sido conformada por compuertas AND que comparan el bit n de la cadena a con el bit n de la cadena b y con el paso de las iteraciones, se comparan los bits n+1 de cada una de las cadenas respectivamente.
 
 ### **Compuerta NOT16:**
 
