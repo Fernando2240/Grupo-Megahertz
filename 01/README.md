@@ -58,6 +58,8 @@ La compuerta OR de 16 bits ha sido conformada por compuertas AND que comparan el
 
 ### **Compuerta Mux16**
 
+Se selecciona una de las múltiples entradas y se enruta hacia la salida. La operación de un MUX se controla mediante las entradas de selección, que determinan cuál de las entradas de datos se transmite a la salida. De esta manera las entradas n de la cadena a se comparan con las entradas n de la cadena b, así conseguimos 16 salidas correspondientes a 16 entradas.
+
 ### **Compuerta Or8Way**
 
 La compuerta OR de 8 caminos en los que las entradas son recursivas de tal manera que la salida de la primer compuerta es la entrada de la segunda, entonces la salida de la compuerta n será la entrada de la compuerta n+1.
