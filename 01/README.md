@@ -66,6 +66,8 @@ Se selecciona una de las múltiples entradas y se enruta hacia la salida. La ope
 
 ### **Compuerta Or8Way**
 
+![Or8Way](https://github.com/Fernando2240/Grupo-Megahertz/assets/92164946/3167e0b7-9544-420f-ac0a-0141a404becd)
+
 La compuerta OR de 8 caminos en los que las entradas son recursivas de tal manera que la salida de la primer compuerta es la entrada de la segunda, entonces la salida de la compuerta n será la entrada de la compuerta n+1.
 
 ### **Preguntas adicionales:**
