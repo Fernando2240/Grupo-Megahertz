@@ -73,7 +73,16 @@ Se selecciona una de las múltiples entradas y se enruta hacia la salida. La ope
 La compuerta OR de 8 caminos en los que las entradas son recursivas de tal manera que la salida de la primer compuerta es la entrada de la segunda, entonces la salida de la compuerta n será la entrada de la compuerta n+1.
 
 ### **Compuerta Mux4way16**
+
 Esta compuerta enruta una entrada de 16 bits hacia la salida, dependiendo de la combinación que tenga la entrada de seleción, la cual dispone de 2 bits por tanto se tienen 4 posibles configuraciones, para su funcionamiento se usaron tres Mux16 de los cuales dos de ellos permiten el paso de cierta entrada dependiendo del bit 1 y bit 2 del selector. Además se uso una compuerta Xor que indica cual sera el selector a usar en el ultimo Mux16, que recibe la salida de cada uno de los Mux16 utilizados anteriormente.
+
+### **Compuerta Mux8Way16**
+
+La compuerta Mux8Way16 tiene 8 entradas de 16 bits cada una y permite enrutar una entrada especifica dependiendo de la combinación de 3 bits presentes en el selector. Su funcionamiento se logró por medio de 2 Mux4Way16 los cuales enrutan diferentes entradas según sea la configuracion de los bits 2 y 3 del selector. También se uso un Mux16 que toma la salida de los Mux4Way16 y genera un output teniendo en cuanta el bit 1 del selector.
+
+### **Compuerta DMux4Way**
+
+Su función es permitir el paso de una entrada in y enrutarla en una de sus 4 salidas, teniendo en cuenta las posibles combinaciones de un selector de 2 bits. Este integrado se realizo por medio de 6 compuertas AND y 2 compuertas NOT.
 
 ### **Preguntas adicionales:**
 
