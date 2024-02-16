@@ -72,6 +72,9 @@ Se selecciona una de las múltiples entradas y se enruta hacia la salida. La ope
 
 La compuerta OR de 8 caminos en los que las entradas son recursivas de tal manera que la salida de la primer compuerta es la entrada de la segunda, entonces la salida de la compuerta n será la entrada de la compuerta n+1.
 
+### **Compuerta Mux4way16**
+Esta compuerta enruta una entrada de 16 bits hacia la salida, dependiendo de la combinación que tenga la entrada de seleción, la cual dispone de 2 bits por tanto se tienen 4 posibles configuraciones, para su funcionamiento se usaron tres Mux16 de los cuales dos de ellos permiten el paso de cierta entrada dependiendo del bit 1 y bit 2 del selector. Además se uso una compuerta Xor que indica cual sera el selector a usar en el ultimo Mux16, que recibe la salida de cada uno de los Mux16 utilizados anteriormente.
+
 ### **Preguntas adicionales:**
 
 1. ¿Que consideraciones importantes debe tener en cuenta para trabajar con Nand2Tetris?
