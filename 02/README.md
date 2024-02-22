@@ -1,1 +1,1 @@
-# Grupo-Megahertz
+# Laboratorio #2
