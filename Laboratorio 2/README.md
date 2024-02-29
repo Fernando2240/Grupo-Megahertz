@@ -55,9 +55,21 @@ el chip Inc16 es un incrementador que suma 1 al número de entrada de 16 bits ut
 
 ### **1-bit register (BIT):**
 
+Para construir este chip hacemos uso de de un multiplexor y un flip flop tipo dff, donde el selector del multiplexor es el load y las entradas son: la entrada directa y la salida del flip flop, de esta forma tenemos el mismo funcionamiento que el chip "bit" que cuando el load es igual a 1 su entrada carga el valor de la entrada y su salida es la entrada cargada anteriormente. 
+
+
 ### Register
+
+El chip "registro" fue hecho a partir del chip que creamos anteriormente (bit), donde utilizamos utilizamos 16 de ellos y cada uno se le asigna el mismo load y una posición determinada de la cadena "in" como tambien una salida en esa misma posicion. 
+
 ### RAM8
+
+Para constuir el chip Ram8 utilizamos los registros junto con un Dmux8way y un Mux8way, de esta forma el demultiplexor va a dejar pasar el load a alguno de los 8 registros según indique el selector( que en este caso le llamamos la dirección o address) una vez que pasa el load este nos indica si el registro se modifica o no con la entrada "in". Luego el multiplexor deja pasar la salida del registro con la direccion que nosotros especificamos. De esta forma construimos la Ram8.
+
 ### RAM64
+
+El proceso para construir el chip Ram64 es parecido al de la Ram8, con al diferencia que ahora en lugar de registros utilizamos Ram8. Entonces para realizar este chip necesitamos un Dmux8way, 8 Ram8 y un Mux
+
 ### RAM512
 ### RAM4K
 ### RAM16K
