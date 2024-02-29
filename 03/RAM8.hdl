@@ -1,0 +1,26 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/03/a/RAM8.hdl
+/**
+ * Memory of eight 16-bit registers.
+ * If load is asserted, the value of the register selected by
+ * address is set to in; Otherwise, the value does not change.
+ * The value of the selected register is emitted by out.
+ */
+CHIP RAM8 {
+    IN in[16], load, address[3];
+    OUT out[16];
+
+    PARTS:
+    DMux8Way(in=load, sel=address, a=lda, b=ldb, c=ldc, d=ldd, e=lde, f=ldf, g=ldg, h=ldh);
+    Register(in=in, load=lda, out=sal1);
+    Register(in=in, load=ldb, out=sal2);
+    Register(in=in, load=ldc, out=sal3);
+    Register(in=in, load=ldd, out=sal4);
+    Register(in=in, load=lde, out=sal5);
+    Register(in=in, load=ldf, out=sal6);
+    Register(in=in, load=ldg, out=sal7);
+    Register(in=in, load=ldh, out=sal8);
+    Mux8Way16(a=sal1, b=sal2, c=sal3, d=sal4, e=sal5, f=sal6, g=sal7, h=sal8, sel=address, out=out);
+}
