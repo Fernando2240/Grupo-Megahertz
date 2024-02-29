@@ -80,7 +80,7 @@ En este caso, se construye el chip de igual manera que como trabajamos con los a
 
 ### RAM16K
 
-Este chip cambia un poco en la construcción comparandolo como realizamos los otros chips de ram, pero de igual manera hacemos uso del chip anterior, el multiplexor y el demultiplexor. Para este chip 
+Este chip cambia un poco en la construcción comparandolo como realizamos los otros chips de ram, pero de igual manera hacemos uso del chip anterior, el multiplexor y el demultiplexor. Para este chip utilizamos Dmux4way y Mux4way16 ya que ahora solo tenemos 4 Ram4k que son las que componen a la Ram16k. De esta manera nuestro selecctor tanto del Dmux4way y del Mux4way, ahora solo toma en cuenta los ultimos 2 bits del address, y los otros 12 bits a la Ram4k.
 
 ### PC
 
