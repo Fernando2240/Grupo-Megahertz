@@ -50,7 +50,11 @@ el chip Inc16 es un incrementador que suma 1 al número de entrada de 16 bits ut
 
 ### ALU
 
+<div align="center">
+    
+![image](https://github.com/Fernando2240/Grupo-Megahertz/assets/92164946/1331e58d-5fb4-4714-9b49-0c967de9df63)
 
+</div>
 
 ## PRACTICA 3: Memoria
 
