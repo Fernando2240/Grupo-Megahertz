@@ -46,10 +46,11 @@ el chip Inc16 es un incrementador que suma 1 al número de entrada de 16 bits ut
     
 ![image](https://github.com/Fernando2240/Grupo-Megahertz/assets/92164946/b812ae13-f6d0-4867-b4cf-e52d129c9e0c)
 
-
 </div>
 
 ### ALU
+
+
 
 ## PRACTICA 3: Memoria
 
@@ -57,32 +58,79 @@ el chip Inc16 es un incrementador que suma 1 al número de entrada de 16 bits ut
 
 Para construir este chip hacemos uso de de un multiplexor y un flip flop tipo dff, donde el selector del multiplexor es el load y las entradas son: la entrada directa y la salida del flip flop, de esta forma tenemos el mismo funcionamiento que el chip "bit" que cuando el load es igual a 1 su entrada carga el valor de la entrada y su salida es la entrada cargada anteriormente. 
 
+<div align="center">
+    
+![image](https://github.com/Fernando2240/Grupo-Megahertz/assets/92164946/9547e42f-0abd-40b3-990a-12ceb821d898)
+
+</div>
 
 ### Register
 
 El chip "registro" fue hecho a partir del chip que creamos anteriormente (bit), donde utilizamos utilizamos 16 de ellos y cada uno se le asigna el mismo load y una posición determinada de la cadena "in" como tambien una salida en esa misma posicion. 
 
+<div align="center">
+    
+![image](https://github.com/Fernando2240/Grupo-Megahertz/assets/92164946/246dbdf2-e96d-4c53-8785-bec7c382fa26)
+
+</div>
+
 ### RAM8
 
 Para constuir el chip Ram8 utilizamos los registros junto con un Dmux8way y un Mux8way16, de esta forma el demultiplexor va a dejar pasar el load a alguno de los 8 registros según indique el selector( que en este caso le llamamos la dirección o address) una vez que pasa el load este nos indica si el registro se modifica o no con la entrada "in". Luego el multiplexor deja pasar la salida del registro con la direccion que nosotros especificamos. De esta forma construimos la Ram8.
+
+<div align="center">
+    
+![image](https://github.com/Fernando2240/Grupo-Megahertz/assets/92164946/0eafef54-2a87-46ea-8e87-5d4b94942ffc)
+
+</div>
 
 ### RAM64
 
 El proceso para construir el chip Ram64 es parecido al de la Ram8, con al diferencia que ahora en lugar de registros utilizamos Ram8. Entonces para realizar este chip necesitamos un Dmux8way, 8 Ram8 y un Mux8way16, y ahora nuestro el selector será los ultimos 3 bits de la cadena address, que son los que me van a indicar a cual de las 8 ram8 se va a dirigir el load, luego los otros 3 bits en la posicion de 0 a 2 serán los que me indican a cual registro especifico es la dirección. Así mismo, en el multiplexor los ultimos 3 bits(de la posición 3 a 5) del address me van a indicar cual salida deja pasar.
 
+<div align="center">
+    
+![image](https://github.com/Fernando2240/Grupo-Megahertz/assets/92164946/b96db4f1-6363-4324-90d6-ecb367473ac2)
+
+</div>
+
 ### RAM512
 
-De igual forma, con la misma logica que trabajamos los chips Ram8 y Ram64, así mismo se construye la Ram512, esta vez haciendo uso de 8 ram64 y el address ahora es de tamaño 9 bits, donde los ultimos 3 ([6-8]) me indican a cual de las rams64 va a seguir el load,es decir los que se le proporcionan como selector del demultiplexor, y los primeros 6 bits del address se proporcionan a la Ram64 que corresponda. 
+De igual forma, con la misma logica que trabajamos los chips Ram8 y Ram64, así mismo se construye la Ram512, esta vez haciendo uso de 8 ram64 y el address ahora es de tamaño 9 bits, donde los ultimos 3 ([6-8]) me indican a cual de las rams64 va a seguir el load,es decir los que se le proporcionan como selector del demultiplexor, y los primeros 6 bits del address se proporcionan a la Ram64 que corresponda.
+
+<div align="center">
+    
+![image](https://github.com/Fernando2240/Grupo-Megahertz/assets/92164946/a7a5a558-147a-4cb4-b0c6-0fbf7a16239d)
+
+</div>
 
 ### RAM4K
 
 En este caso, se construye el chip de igual manera que como trabajamos con los anteriores reemplazando las Ram64 por Ram512 y de igual forma que el chip anterior los 3 primeros bits del address son los que se introducen en el selector y los otros 9 bits del address van para la ram512 especifica.
 
+<div align="center">
+    
+![image](https://github.com/Fernando2240/Grupo-Megahertz/assets/92164946/6a429f94-0df2-4d83-88c8-630f963c6c4c)
+
+</div>
+
 ### RAM16K
 
 Este chip cambia un poco en la construcción comparandolo como realizamos los otros chips de ram, pero de igual manera hacemos uso del chip anterior, el multiplexor y el demultiplexor. Para este chip utilizamos Dmux4way y Mux4way16 ya que ahora solo tenemos 4 Ram4k que son las que componen a la Ram16k. De esta manera nuestro selecctor tanto del Dmux4way y del Mux4way, ahora solo toma en cuenta los ultimos 2 bits del address, y los otros 12 bits a la Ram4k.
 
+<div align="center">
+    
+![image](https://github.com/Fernando2240/Grupo-Megahertz/assets/92164946/48e4b4a6-ae5e-4d0b-a897-616e40ccb359)
+
+</div>
+
 ### PC
+
+<div align="center">
+    
+![image](https://github.com/Fernando2240/Grupo-Megahertz/assets/92164946/56bd71d7-7c87-4ccc-8707-9d81c4077ae7)
+
+</div>
 
 ## PREGUNTAS ADICIONALES:
 1. ¿Cuál es el objetivo de cada uno de esos proyectos con sus palabras y describa que debe hacer para desarrollarlo?
