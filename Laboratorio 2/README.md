@@ -76,9 +76,12 @@ De igual forma, con la misma logica que trabajamos los chips Ram8 y Ram64, así 
 
 ### RAM4K
 
-En este caso, se construye el chip de igual manera que como trabajamos con los anteriores reemplazando las Ram64 por Ram512 y de igual forma que el chip anterior los 3 primeros bits del 
+En este caso, se construye el chip de igual manera que como trabajamos con los anteriores reemplazando las Ram64 por Ram512 y de igual forma que el chip anterior los 3 primeros bits del address son los que se introducen en el selector y los otros 9 bits del address van para la ram512 especifica.
 
 ### RAM16K
+
+Este chip cambia un poco en la construcción comparandolo como realizamos los otros chips de ram, pero de igual manera hacemos uso del chip anterior, el multiplexor y el demultiplexor. Para este chip 
+
 ### PC
 
 ## PREGUNTAS ADICIONALES:
