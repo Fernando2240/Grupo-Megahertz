@@ -16,6 +16,7 @@ Por otro lado, para el proceso de generación del carry se encuentra que logra h
 </div>
 
 Teniendo en cuenta esto, implementamos el código: 
+![image](https://github.com/Fernando2240/Grupo-Megahertz/assets/125404992/79f9ae99-22d8-4815-aad3-2645cd620e69)
 
 ### FullAdder
 
