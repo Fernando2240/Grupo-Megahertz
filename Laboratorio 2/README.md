@@ -49,6 +49,7 @@ el chip Inc16 es un incrementador que suma 1 al número de entrada de 16 bits ut
 </div>
 
 ### ALU
+El chip ALU realiza operaciones aritméticas y lógicas en dos números de 16 bits (x, y) según las señales de control proporcionadas (zx, nx, zy, ny, f, no). La salida (out) se determina en función de estas operaciones y se verifica si es cero (zr) o negativa (ng).
 
 <div align="center">
     
@@ -129,6 +130,8 @@ Este chip cambia un poco en la construcción comparandolo como realizamos los ot
 </div>
 
 ### PC
+
+el chip PC es un contador de programa que almacena y gestiona direcciones de instrucciones. Puede incrementar la dirección, cargar una nueva dirección y restablecerse a cero según las señales de control proporcionadas (inc, load, reset). La salida (out[16]) representa la dirección actual almacenada en el Program Counter.
 
 <div align="center">
     
