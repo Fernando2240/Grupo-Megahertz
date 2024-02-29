@@ -64,14 +64,20 @@ El chip "registro" fue hecho a partir del chip que creamos anteriormente (bit), 
 
 ### RAM8
 
-Para constuir el chip Ram8 utilizamos los registros junto con un Dmux8way y un Mux8way, de esta forma el demultiplexor va a dejar pasar el load a alguno de los 8 registros según indique el selector( que en este caso le llamamos la dirección o address) una vez que pasa el load este nos indica si el registro se modifica o no con la entrada "in". Luego el multiplexor deja pasar la salida del registro con la direccion que nosotros especificamos. De esta forma construimos la Ram8.
+Para constuir el chip Ram8 utilizamos los registros junto con un Dmux8way y un Mux8way16, de esta forma el demultiplexor va a dejar pasar el load a alguno de los 8 registros según indique el selector( que en este caso le llamamos la dirección o address) una vez que pasa el load este nos indica si el registro se modifica o no con la entrada "in". Luego el multiplexor deja pasar la salida del registro con la direccion que nosotros especificamos. De esta forma construimos la Ram8.
 
 ### RAM64
 
-El proceso para construir el chip Ram64 es parecido al de la Ram8, con al diferencia que ahora en lugar de registros utilizamos Ram8. Entonces para realizar este chip necesitamos un Dmux8way, 8 Ram8 y un Mux
+El proceso para construir el chip Ram64 es parecido al de la Ram8, con al diferencia que ahora en lugar de registros utilizamos Ram8. Entonces para realizar este chip necesitamos un Dmux8way, 8 Ram8 y un Mux8way16, y ahora nuestro el selector será los ultimos 3 bits de la cadena address, que son los que me van a indicar a cual de las 8 ram8 se va a dirigir el load, luego los otros 3 bits en la posicion de 0 a 2 serán los que me indican a cual registro especifico es la dirección. Así mismo, en el multiplexor los ultimos 3 bits(de la posición 3 a 5) del address me van a indicar cual salida deja pasar.
 
 ### RAM512
+
+De igual forma, con la misma logica que trabajamos los chips Ram8 y Ram64, así mismo se construye la Ram512, esta vez haciendo uso de 8 ram64 y el address ahora es de tamaño 9 bits, donde los ultimos 3 ([6-8]) me indican a cual de las rams64 va a seguir el load,es decir los que se le proporcionan como selector del demultiplexor, y los primeros 6 bits del address se proporcionan a la Ram64 que corresponda. 
+
 ### RAM4K
+
+En este caso, se construye el chip de igual manera que como trabajamos con los anteriores reemplazando las Ram64 por Ram512 y de igual forma que el chip anterior los 3 primeros bits del 
+
 ### RAM16K
 ### PC
 
