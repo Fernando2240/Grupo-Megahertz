@@ -139,4 +139,7 @@ Este chip cambia un poco en la construcción comparandolo como realizamos los ot
 ## PREGUNTAS ADICIONALES:
 1. ¿Cuál es el objetivo de cada uno de esos proyectos con sus palabras y describa que debe hacer para desarrollarlo?
 2. Explique las principales diferencias entre la lógica aritmética y la lógica secuencial.
+
+La lógica aritmética se centra en la ejecución de operaciones matemáticas y lógicas directamente en los datos, como sumas, restas, multiplicaciones y operaciones lógicas. Estos circuitos suelen operar en paralelo, realizando cálculos sobre todos los bits de sus entradas simultáneamente, y no almacenan información entre operaciones. Por otro lado, la lógica secuencial implica el uso de elementos de almacenamiento, como registros y flip-flops, para mantener estados internos y procesar información de manera secuencial o en pasos sucesivos. Estos circuitos tienen un componente de memoria, lo que les permite retener información entre operaciones sucesivas.
+
 3. ¿Qué tipo de unidades aritmético lógicas existen?
