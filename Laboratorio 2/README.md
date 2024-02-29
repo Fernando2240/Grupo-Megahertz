@@ -20,9 +20,34 @@ Teniendo en cuenta esto, implementamos el código:
 
 ### FullAdder
 
+El FullAdder es un circuito lógico que realiza la suma de tres bits: A, B, y un bit de acarreo de entrada (C). Su objetivo principal es calcular la suma de esos tres bits y generar dos salidas: la suma (sum) y un bit de acarreo de salida (carry-out). Para construir un chip FullAddres dividimos el proceso en dos partes, en la primera se realiza la suma del bit A y B mediante un HalfAdder dejando el resultado sum1 y un bit de acarreo c1. Posteriormente se realiza con otro HalfAddre la suma de sum1 y el bit C para obtener el resultado final de la suma, mientras que para el carry se pasan los dos acarreos anteriores por una compuerta OR.
+<div align="center">
+    
+![Captura de pantalla 2024-02-29 141900](https://github.com/Fernando2240/Grupo-Megahertz/assets/92164946/804d3d4e-547a-46a5-b3f3-d820e4115b2e)
+    
+</div>
+
 ### Add16
 
+El chip Add16 utiliza una estructura en cadena de Full Adders y un Half Adder para realizar la suma de dos números de 16 bits. Cada Full Adder calcula un bit de la suma y pasa el acarreo al siguiente nivel, logrando así la suma completa de los 16 bits. Este diseño es escalable y puede extenderse para sumar números de longitudes mayores.
+
+<div align="center">
+    
+![image](https://github.com/Fernando2240/Grupo-Megahertz/assets/92164946/82498c0c-84b8-49b0-bc52-d4dc5a74b095)
+
+    
+</div>
+
 ### Inc16
+
+el chip Inc16 es un incrementador que suma 1 al número de entrada de 16 bits utilizando una cadena de Half Adders. Cada Half Adder se encarga de sumar 1 a un bit específico y pasa el acarreo al siguiente nivel para propagar el incremento a través de todos los bits.
+
+<div align="center">
+    
+![image](https://github.com/Fernando2240/Grupo-Megahertz/assets/92164946/b812ae13-f6d0-4867-b4cf-e52d129c9e0c)
+
+
+</div>
 
 ### ALU
 
