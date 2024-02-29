@@ -138,8 +138,16 @@ Este chip cambia un poco en la construcción comparandolo como realizamos los ot
 
 ## PREGUNTAS ADICIONALES:
 1. ¿Cuál es el objetivo de cada uno de esos proyectos con sus palabras y describa que debe hacer para desarrollarlo?
+
+   Cada uno de los proyectos tienen como objetivo proporcionar una comprensión completa de la construcción de sistemas informáticos, desde el nivel de hardware hasta el nivel de software. 
 2. Explique las principales diferencias entre la lógica aritmética y la lógica secuencial.
 
-La lógica aritmética se centra en la ejecución de operaciones matemáticas y lógicas directamente en los datos, como sumas, restas, multiplicaciones y operaciones lógicas. Estos circuitos suelen operar en paralelo, realizando cálculos sobre todos los bits de sus entradas simultáneamente, y no almacenan información entre operaciones. Por otro lado, la lógica secuencial implica el uso de elementos de almacenamiento, como registros y flip-flops, para mantener estados internos y procesar información de manera secuencial o en pasos sucesivos. Estos circuitos tienen un componente de memoria, lo que les permite retener información entre operaciones sucesivas.
+    La lógica aritmética se centra en la ejecución de operaciones matemáticas y lógicas directamente en los datos, como sumas, restas, multiplicaciones y operaciones lógicas. Estos circuitos suelen operar en paralelo,       realizando cálculos sobre todos los bits de sus entradas simultáneamente, y no almacenan información entre operaciones. Por otro lado, la lógica secuencial implica el uso de elementos de almacenamiento, como             registros y flip-flops, para mantener estados internos y procesar información de manera secuencial o en pasos sucesivos. Estos circuitos tienen un componente de memoria, lo que les permite retener información entre       operaciones sucesivas.
 
 3. ¿Qué tipo de unidades aritmético lógicas existen?
+   - **ALU de Datos de un Solo Operando:** Realiza operaciones aritméticas y lógicas en un solo operando (por ejemplo, incremento, decremento, negación).
+   - **ALU de Datos de Dos Operandos:** Realiza operaciones aritméticas y lógicas en dos operandos, como sumas, restas, multiplicaciones y operaciones lógicas como AND, OR, XOR.
+   - **ALU con Desplazamiento:** Realiza operaciones de desplazamiento de bits, como desplazamientos a la izquierda o derecha, rotaciones, y operaciones relacionadas con el movimiento de bits.
+   - **ALU de Punto Flotante:** Diseñado específicamente para realizar operaciones aritméticas en números de punto flotante.
+   - **ALU Multifunción:** Incluye una amplia gama de operaciones en una única unidad, como adiciones, restas, operaciones lógicas, desplazamientos y operaciones de comparación.
+   - **ALU Vectorial:** Diseñado para operar en conjuntos de datos o vectores, realizando operaciones simultáneas en múltiples elementos de datos.
