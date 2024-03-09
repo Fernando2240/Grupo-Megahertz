@@ -1,6 +1,6 @@
-# Desarrollo del taller #1
+# Desarrollo del taller #2
 
-## PRACTIVA 2: Aritmética booleana
+## PRACTICA 2: Aritmética booleana
 
 ### HalfAdder
 
