@@ -11,6 +11,9 @@
 ## PRACTICA 5: Arquitectura de computadores
 
 ### Memory
+
+Para construir la memoria necesitamos de varios chips creados anteriormente, entre ellos: DMux4way, Or, RAM16K, Screen, Keyboard y un Mux4Way16. El demultiplexor se utiliza para determinar qué carga se activa según el selector, ya luego en los modulos de RAM16K y Screen se controlan los chips con la carga y dirección adecuada según correspona, despues se optiene la salida del teclado y por ultimo en el multiplexor elige entre las salidas de RAM16k, Screen y Keyboard dependiendo de la dirección
+
 ### CPU
 ### Computer
 
