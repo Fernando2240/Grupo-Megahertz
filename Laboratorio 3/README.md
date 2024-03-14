@@ -23,7 +23,16 @@ Para el computer hicimos uso de 2 chips creados previamente que son Memory y CPU
 
 1. ¿Por qué el lenguaje de máquina es importante para definir la arquitectura computacional?
 
-   El lenguaje de máquina es importante para definir la arquitectura computacional porque proporciona una interfaz directa con el hardware, permite un control preciso del mismo, facilita la portabilidad del software, optimiza el rendimiento y es fundamental para el diseño de procesadores y arquitecturas de computadoras.
+El lenguaje de máquina es fundamental para definir la arquitectura computacional por razones como:
+
+- **Interacción directa con el hardware:** El lenguaje de máquina es el único lenguaje que el procesador puede entender directamente. Define las instrucciones básicas como operaciones aritméticas, movimientos de datos, control de flujo, etc. Por lo tanto, es esencial para interactuar directamente con el hardware.
+
+- **Control de bajo nivel:** El lenguaje de máquina proporciona un nivel de control muy bajo, lo cual permite diseñar sistemas eficientes y optimizados para ejecutar programas específicos.
+
+- **Base para lenguajes de programación de alto nivel:** Los lenguajes de programación de alto nivel se traducen eventualmente a lenguaje de máquina para que la computadora pueda ejecutarlos. Por lo mismo es que comprender cómo funcionan las instrucciones a nivel de máquina es esencial para los diseñadores de lenguajes y compiladores.
+
+- **Diseño de arquitectura de CPU:** El lenguaje de máquina influye directamente en el diseño de la arquitectura de la CPU. Las decisiones sobre el conjunto de instrucciones, la longitud de las palabras, los modos de direccionamiento, entre otros aspectos, están influenciadas por el lenguaje de máquina que se implementará.
+
 
 2. ¿Qué diferencia ven entre arquitectura computacional, arquitectura de software y arquitectura del sistema? Justifique su respuesta.
 
