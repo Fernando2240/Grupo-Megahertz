@@ -12,16 +12,19 @@
 
 ### Memory
 
-Para construir la memoria necesitamos de varios chips creados anteriormente, entre ellos: DMux4way, Or, RAM16K, Screen, Keyboard y un Mux4Way16. El demultiplexor se utiliza para determinar qué carga se activa según el selector, ya luego en los modulos de RAM16K y Screen se controlan los chips con la carga y dirección adecuada según correspona, despues se optiene la salida del teclado y por ultimo en el multiplexor elige entre las salidas de RAM16k, Screen y Keyboard dependiendo de la dirección
+Para construir la memoria necesitamos de varios chips creados anteriormente, entre ellos: DMux4way, Or, RAM16K, Screen, Keyboard y un Mux4Way16. El demultiplexor se utiliza para determinar qué carga se activa según el selector, ya luego en los modulos de RAM16K y Screen se controlan los chips con la carga y dirección adecuada según correspona, despues se optiene la salida del teclado y por ultimo en el multiplexor elige entre las salidas de RAM16k, Screen y Keyboard dependiendo de la dirección.
 
 ### CPU
 ### Computer
 
-Para el computer hicimos uso de 2 chips creados previamente que son Memory y CPU, y aparte tambien usamos el chip ya proporcionado ROM32K
+Para el computer hicimos uso de 2 chips creados previamente que son Memory y CPU, y aparte tambien usamos el chip ya proporcionado ROM32K.
 
 ## PREGUNTAS ADICIONALES:
 
 1. ¿Por qué el lenguaje de máquina es importante para definir la arquitectura computacional?
+
+El lenguaje de máquina es crucial para definir la arquitectura computacional porque proporciona una interfaz directa con el hardware, permite un control preciso del mismo, facilita la portabilidad del software, optimiza el rendimiento y es fundamental para el diseño de nuevos procesadores y arquitecturas de computadoras.
+
 2. ¿Qué diferencia ven entre arquitectura computacional, arquitectura de software y arquitectura del sistema? Justifique su respuesta.
 
 ### Bonus
