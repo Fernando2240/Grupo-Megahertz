@@ -17,6 +17,8 @@ Para construir la memoria necesitamos de varios chips creados anteriormente, ent
 ### CPU
 ### Computer
 
+Para el computer hicimos uso de 2 chips creados previamente que son Memory y CPU, y aparte tambien usamos el chip ya proporcionado ROM32K
+
 ## PREGUNTAS ADICIONALES:
 
 1. ¿Por qué el lenguaje de máquina es importante para definir la arquitectura computacional?
