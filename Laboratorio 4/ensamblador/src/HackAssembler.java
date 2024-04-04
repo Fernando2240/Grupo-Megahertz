@@ -141,6 +141,7 @@ public class HackAssembler {
         dests.add(new String[]{"M", "001"});
         dests.add(new String[]{"D", "010"});
         dests.add(new String[]{"DM", "011"});
+        dests.add(new String[]{"MD", "011"});
         dests.add(new String[]{"A", "100"});
         dests.add(new String[]{"AM", "101"});
         dests.add(new String[]{"AD", "110"});
